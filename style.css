@@ -1,0 +1,49 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.items{
+    color: white;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    background-color: black;
+    color: white;
+    text-align: center;
+    height: 100vh;
+}
+.item1{
+    background-color: rgb(15, 153, 153);
+    width: 300px;
+    height: 300px;
+text-align: center;
+}
+.item2{
+    background-color: rgb(219, 68, 68);
+    width: 300px;
+    height: 300px;
+text-align: center;
+}
+.item3{
+    background-color: rgb(211, 113, 113);
+    width: 300px;
+    height: 300px;
+text-align: center;
+}
+.item4{
+    background-color: rgb(37, 37, 129);
+    width: 300px;
+    height: 300px;
+text-align: center;
+}
+.buttons{
+    display: flex;
+    justify-content: space-around;
+
+}
+button{
+    width: 300px;
+    margin-top: 10px;
+}
