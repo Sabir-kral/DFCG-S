@@ -10,9 +10,14 @@ $(document).ready(function () {
     buton2.addEventListener("dblclick",function () {
         $(".item2").fadeIn(2000)
     })
-    let buton3 = document.querySelector(".fadeto")
-    buton3.addEventListener("click",function () {
-        $(".item3").fadeTo(2000, 0.25)
+    $(".fadeto").click(function (){
+        if ($(".fadeto").text()=="fade to 25%") {
+            $(".item3").fadeTo(2000,0.25)
+            $(".fadeto").text("fade to 1")
+        } else {
+            $(".item3").fadeTo(2000,1)
+            $(".fadeto").text("fade to 25%")
+        }
     })
     let buton4 = document.querySelector(".slide")
     buton4.addEventListener("click",function () {
